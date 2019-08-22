@@ -27,7 +27,7 @@ call vundle#end()
 " filetype func on
 filetype plugin indent on
 
-Plugin 'scrooloose/nerdtree.git' 
+Plugin 'scrooloose/nerdtree.git'
 Plugin 'jlanzarotta/bufexplorer'
 Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
@@ -42,4 +42,9 @@ inoremap <C-E> <Esc><S-a>
 "Going to the beginging of the line
 inoremap <C-A> <Esc>0i
 
-nmap <space> :NERDTree %<CR>
+set noswapfile
+set nobackup
+
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+nnoremap q :NERDTreeFind<CR>
