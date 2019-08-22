@@ -1,5 +1,6 @@
 " ~/.vimrc
 " settings of the tabs
+syntax on
 set expandtab
 set shiftwidth=4
 set tabstop=4
@@ -48,3 +49,8 @@ set nobackup
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 nnoremap q :NERDTreeFind<CR>
+
+
+"Going to match
+highlight ExtraWhitespace ctermbg=green guibg=green
+match ExtraWhitespace /\s\+$/
