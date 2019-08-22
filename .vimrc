@@ -52,5 +52,5 @@ nnoremap q :NERDTreeFind<CR>
 
 
 "Going to match
-highlight ExtraWhitespace ctermbg=green guibg=green
+highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 match ExtraWhitespace /\s\+$/
