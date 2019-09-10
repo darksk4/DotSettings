@@ -35,6 +35,7 @@ Plugin 'scrooloose/nerdtree.git'
 Plugin 'jlanzarotta/bufexplorer'
 Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
+Plugin 'BurntSushi/ripgrep'
 
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
