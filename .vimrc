@@ -6,8 +6,11 @@ set shiftwidth=4
 set tabstop=4
 set softtabstop=0
 "only one line without breaking
-set nowrap 
-"set number // setting left side number
+set nowrap
+"searching increamently
+set incsearch
+"setting left side number
+set number
 " no vi compat
 set nocompatible
 set tags=~/remote/rox/fri.tags;/
@@ -54,3 +57,6 @@ nnoremap q :NERDTreeFind<CR>
 "Going to match
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 match ExtraWhitespace /\s\+$/
+
+"setting the ripgrep to the grep via default
+set grepprg=rg\ --vimgrep
