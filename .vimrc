@@ -61,3 +61,6 @@ match ExtraWhitespace /\s\+$/
 
 "setting the ripgrep to the grep via default
 set grepprg=rg\ --vimgrep
+
+set switchbuf+=usetab,newtab
+let g:ctrlp_clear_cache_on_exit = 0
