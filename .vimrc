@@ -50,8 +50,8 @@ inoremap <C-A> <Esc>0i
 set noswapfile
 set nobackup
 
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '-'
 nnoremap q :NERDTreeFind<CR>
 
 
